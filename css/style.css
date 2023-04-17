@@ -1,3 +1,6 @@
-.color {
-    color-scheme: red;
+.color-full {
+   background-color: brown;
+}
+body {
+    background-color: bisque;
 }
