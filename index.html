@@ -2,42 +2,97 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Товары для рыбалки "Рыбачек"</title>
   </head>
   <body>
-    <h1>Привіт Віталій</h1>
-    <h2>отправляем данные из локального</h2>
-    <img src="./img/image.jpg" alt="My photo" width="400px" class="my-photo" />
-    <ol>
-      <li class="color-full">
-        git clone # клонируем репозитоий на свой компьютер
-      </li>
-      <li class="yellow">
-        git add . # делаем все новые файлы в этой папке отслеживаемыми и
-        готовыми к коммиту (если нужно добавить только один файл, то вместо
-        точки пишем его название)
-      </li>
-      <li class="color-red">
-        git commit -m "название_коммита" # создаем коммит с описанием изменений
-      </li>
-      <li>
-        git push # отправляем данные из локального репозитория в удаленный (на
-        github) # снова вносим какие-то изменения # возвращаемся к шагу с git
-        add . и проходим цикл заново
-      </li>
-      <li>
-        git pull # получить изменения с сервера и смержить их со своим кодом
-      </li>
-    </ol>
-    <a
-        href="https://drive.google.com/drive/folders/1j0w2Y0Z6kudwk5R5PjaKt8NRULsgdqec"
-        >Скачати відео дня 4 можна тут</a
-      >
-    </p>
-    <p><a href="mailto:lg181087ssv@gmail.com">разработчик</a>.</p>
-    <p><a href="mailto:tamtamlg@gmail.com">проверил</a></p>
+    <!-- Main content -->
+    <header class="main-header">
+      <div class="container clearfix"></div>
+      <nav class="main-navigation">
+        <ul>
+          <li class="active">
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Информация</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Прайс-лист</a>
+          </li>
+          <li>
+            <a href="#">Магазин</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-blok">
+        <a href="#" class="login">Вход</a>
+      </div>
+    </header>
+    <!-- Site content -->
+    <div class="container">
+      <div class="logo">
+        <img
+          src="img/image.jpg"
+          width="368"
+          height="240"
+          alt="Магазин Рыбачек!"
+        />
+      </div>
+      <section class="features-row clearfix">
+        <div class="features-item">
+          <div class="features-title">Наживка</div>
+          <p>
+            Всегда свежая наживка,качество залог учпеха,с нашей наживкой без
+            улова не останетесь
+          </p>
+          <div class="features-item"></div>
+          <div class="features-title">Прикормка</div>
+          <p>
+            Наша прикормка сделана из качественных зерновых,используются только
+            зарубежные ароматизаторы,безвредня для окружающей среды
+          </p>
+          <div class="features-item"></div>
+          <div class="features-title">Снасти</div>
+          <p>
+            Для изготовления снастей мы используем фурнитуру Японского
+            качества,наши снасти не подведую
+          </p>
+        </div>
+      </section>
+      <div class="index-content clearfix">
+        <section class="content-column-left">
+          <h2 class="content-column-title">Новости о рыбалке</h2>
+          <ul class="news-preview">
+            <li>
+              Изменены правила рыбаловства в законодательстве<br />
+              <time datetime="2023-04-18">На 25 сентября</time>
+            </li>
+            <li>
+              В нашей команде пополнение,новый продавец консультант Анна<br />
+              <time datetime="2023-04-18">На 20 сентября</time>
+            </li>
+          </ul>
+          <a href="#" class="btn">Все новости</a>
+        </section>
+        <section class="content-column-right">
+          <h2 class="content-column-title">Фотогалерея</h2>
+          <div class="gallery">
+            <figure class="gallery-content">
+              <img src="img/image1.jpg" width="286" height="164" alt="">
+            </figure>
+            <button class="btn gallery-prev">Назад</button>
+            <button class="btn gallery-next">Вперед</button>
+          </div>
+        </section>
+      </div>
+    </div>
+    <footer class="main-footer"></footer>
   </body>
 </html>
