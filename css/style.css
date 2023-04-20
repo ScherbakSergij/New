@@ -1,12 +1,31 @@
 .color-full {
-   background-color: brown;
+    background-color: brown;
 }
+
 body {
     background-color: rgb(196, 255, 201);
 }
+
 .yellow {
     background-color: chartreuse;
 }
+
 .color-red {
     background-color: darkgreen;
+}
+
+/* Logotip */
+.logo {
+    display: inline-block;
+    width: 1170px;
+    height: 0 auto;
+}
+
+/* Product */
+.features-title {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: gray;
+    text-decoration: none;
 }

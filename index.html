@@ -40,31 +40,35 @@
       <div class="logo">
         <img
           src="img/image.jpg"
-          width="368"
+          width="668"
           height="240"
           alt="Магазин Рыбачек!"
         />
       </div>
+      <!-- Product -->
       <section class="features-row clearfix">
         <div class="features-item">
-          <div><button class="features-title">Наживка</button></div>
+          <div><a href="/" class="features-title">Наживка</a></div>
           <p>
-            Всегда свежая наживка,качество залог учпеха,с нашей наживкой без
+            Всегда свежая наживка,качество залог уcпеха,с нашей наживкой без
             улова не останетесь
           </p>
-          <div class="features-item"></div>
+        </div>
 
-          <div><button class="features-title">Прикормка</button></div>
+          <div class="features-item">
+          <div><a href="/" class="features-title">Прикормка</a></div>
           <p>
             Наша прикормка сделана из качественных зерновых,используются только
             зарубежные ароматизаторы,безвредня для окружающей среды
           </p>
-          <div class="features-item"></div>
-          <div><button class="features-title">Снасти</button></div>
+          </div>
+          <div class="features-item">
+          <div><a href="/" class="features-title">Снасти</a></div>
           <p>
             Для изготовления снастей мы используем фурнитуру Японского
             качества,наши снасти не подведую
           </p>
+          </div>
         </div>
       </section>
       <div class="index-content clearfix">
@@ -94,7 +98,7 @@
         </section>
       </div>
       <div class="index-content clearfix">
-        <select class="content-column-left">
+        <section class="content-column-left">
           <div class="main-content">
             <h2 class="content-colum-title">Контактная информация</h2>
             <p>
@@ -112,7 +116,7 @@
             <a href="#" | class="btn">Как проехать</a>
             <a href="#" class="btn">Обратная связь</a>
           </div>
-        </select>
+        </section>
         <section class="content-column-right">
           <div class="appointment-form">
             <h2 class="content-colum-title">Сделать заказ</h2>
@@ -121,9 +125,9 @@
               телефона и мы свяжемся с вами
             </p>
             <form action="/echo" method="post">
-              <input type="data" naim="data" value="" placeholder="Дата" />
-              <input type="time" naim="time" value="" placeholder="Время" />
-              <input type="neim" naim="neim" value="" placeholder="Ваше имя" />
+              <input type="data" name="data" value="" placeholder="Дата" />
+              <input type="time" name="time" value="" placeholder="Время" />
+              <input type="text" name="name" value="" placeholder="Ваше имя" />
               <button type="submit" class="btn">Отправить</button>
             </form>
           </div>
@@ -131,7 +135,7 @@
       </div>
     </div>
 
-    <footer class="main-footer"></footer>
+    <footer class="main-footer">
     <div class="container clearfix">
       <section class="footer-contacts">
         Магазин Рыбачек<br />
@@ -151,5 +155,6 @@
         <a href="#" class="btn">htmlsamoychka</a>
       </section>
     </div>
+    </footer>
   </body>
 </html>
