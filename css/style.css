@@ -37,3 +37,7 @@ nav {
     background: rgb(128, 128, 128);
     text-decoration: none;
 }
+
+input {
+    max-width: 40px;
+}
