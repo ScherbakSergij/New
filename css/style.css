@@ -4,21 +4,31 @@ body {
 }
 
 /* main-navigation */
-nav {
+.main-menu {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    float: left;
 }
 
 /* Logotip */
 .logo {
     display: block;
-    max-width: 250px;
-    margin: 0 400px;
-    width: 99%;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    padding-left: 400px;
+    border: 10px;
+    color: red;
+    margin: 10px;
+    box-sizing: content-box;
 }
 
 /* Entrance */
-
 
 /* Product */
 .features-title {
@@ -37,6 +47,26 @@ nav {
     background: rgb(128, 128, 128);
     text-decoration: none;
 }
+
+/* footer-social */
+.face {
+    display: inline-block;
+    background-image: url("/img/Face.png");
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 0px;
+}
+
+.insta {
+    display: inline-block;
+    background-image: url("/img/insta.png");
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    font-size: 0px;
+}
+
 
 input {
     max-width: 40px;
