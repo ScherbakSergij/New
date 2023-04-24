@@ -6,6 +6,36 @@
     <title>Товары для рыбалки "Рыбачек"</title>
   </head>
   <body>
+    <!-- main-header -->
+    <header class="main-header">
+      <div class="container clearfix">
+        <nav class="main-navigation">
+          <ul class="main-menu">
+            <li class="active">
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a href="#" class="login">Вход</a>
+        </div>
+      </div>
+    </header>
     <!-- logotip -->
     <div class="container">
       <div class="logo">
@@ -16,46 +46,6 @@
           alt="Магазин Рыбачек!"
         />
       </div>
-    </div>
-    <!-- Menu -->
-    <header class="main-header">
-      <div class="container clearfix"></div>
-      <nav class="main-navigation">
-        <ul class="main-menu">
-          <li class="active">
-            <a href="#">Главная</a>
-          </li>
-          <li>
-            <a href="#">Информация</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="#">Прайс-лист</a>
-          </li>
-          <li>
-            <a href="#">Магазин</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-          <li>
-            <a href="#">Вход</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Search -->
-    <div>
-      <form action="">
-        <input type="text" name="name" value="" placeholder="Поиск" />
-        <button type="submit" class="btn">Поиск</button>
-      </form>
-    </div>
-    <div class="basket-titel">
-      <button>Мой заказ</button>
     </div>
     <!-- Product -->
     <section class="features-row clearfix">
@@ -81,6 +71,7 @@
         </p>
       </div>
     </section>
+    <!-- news -->
     <div class="index-content clearfix">
       <section class="content-column-left">
         <h2 class="content-column-title">Новости о рыбалке</h2>
@@ -135,9 +126,10 @@
             телефона и мы свяжемся с вами
           </p>
           <form action="/echo" method="post">
-            <input type="data" name="data" value="" placeholder="Дата" />
+            <input type="date" name="date" value="" placeholder="Дата" />
             <input type="time" name="time" value="" placeholder="Время" />
             <input type="text" name="name" value="" placeholder="Ваше имя" />
+            <input type="tel" name="phone" value="" placeholder="Телефон" />
             <button type="submit" class="btn">Отправить</button>
           </form>
         </div>
