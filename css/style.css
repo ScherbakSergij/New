@@ -9,6 +9,19 @@ body {
     background-size: 1800px au;
 }
 
+.wrapper {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+}
+
+.features-row-clearfix {}
+
+
+.content-column-title {
+    clear: both;
+}
+
 .basket-titel {
     clear: both;
 }
@@ -19,14 +32,24 @@ body {
 
 /* features-item */
 .features-item {
-    float: left;
-    width: 195px;
-    margin-right: 240px;
-    min-height: 0px;
-    padding: 30px 30px 30px 30px;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+
+
+.features-text {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
     margin-bottom: 5px;
     border: 3px solid black;
+    text-align: center;
 }
+
 
 /* basket */
 .basket-titel {
@@ -53,36 +76,39 @@ body {
 
 /* Logotip */
 .logo {
-
+    text-align: center;
     display: block;
     padding-top: 10px;
-    padding-right: 200px;
-    padding-bottom: 10px;
-    padding-left: 400px;
+    padding-right: auto;
+    padding-bottom: 5px;
+    padding-left: auto;
     border: 10px;
     color: red;
     margin: 10px;
     box-sizing: content-box;
 }
 
-/* Entrance */
+
 
 /* Product */
 .features-title {
-    display: inline-block;
+    display: flex;
     border: 1px solid black;
     border-radius: 5px;
     background: gray;
     text-decoration: none;
 }
 
-/* Мой заказ  */
-.basket-titel {
-    display: inline-block;
-    border: 1px solid black;
-    border-radius: 5px;
-    background: rgb(128, 128, 128);
-    text-decoration: none;
+/* entrance */
+.user-block {
+    padding-left: auto;
+}
+
+/* search */
+.search {
+    margin-top: 0px;
+    padding-left: 1400px;
+
 }
 
 /* footer-social */

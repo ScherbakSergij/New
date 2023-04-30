@@ -31,11 +31,23 @@
             </li>
           </ul>
         </nav>
-        <div class="user-block">
-          <a href="#" class="login">Вход</a>
-        </div>
       </div>
     </header>
+    <!-- Search -->
+    <form method="post" name="form" id="form" action="login.php">
+      <b>Имя:</b> <input type="text" name="user" /><b>Пароль:</b>
+      <input type="password" name="pass" />
+      <input type="submit" value="Вход" name="subm" />
+    </form>
+    <div class="search">
+      <form action="">
+        <input type="text" name="name" value="" placeholder="Поиск" />
+        <button type="submit" class="btn">Поиск</button>
+      </form>
+    </div>
+    <div class="basket-titel">
+      <button>Мой заказ</button>
+    </div>
     <!-- logotip -->
     <div class="container">
       <div class="logo">
@@ -48,29 +60,34 @@
       </div>
     </div>
     <!-- Product -->
-    <section class="features-row clearfix">
-      <div class="features-item">
-        <div><a href="/" class="features-title">Наживка</a></div>
-        <p>
-          Всегда свежая наживка, качество залог уcпеха, с нашей наживкой без
-          улова не останетесь
-        </p>
-      </div>
-      <div class="features-item">
-        <div><a href="/" class="features-title">Прикормка</a></div>
-        <p>
-          Наша прикормка сделана из качественных зерновых, используются только
-          зарубежные ароматизаторы, безвредня для окружающей среды
-        </p>
-      </div>
-      <div class="features-item">
-        <div><a href="/" class="features-title">Снасти</a></div>
-        <p>
-          Для изготовления снастей мы используем фурнитуру Японского
-          качества,наши снасти не подведую
-        </p>
+    <section class="features-row-clearfix">
+      <div class="wrapper">
+        <div class="features-item">
+          <div><a href="/" class="features-title">Наживка</a></div>
+          <p class="features-text">
+            Всегда свежая наживка, качество залог уcпеха, с нашей наживкой без
+            улова не останетесь
+          </p>
+        </div>
+        <div class="features-item">
+          <div>
+            <a href="/" class="features-title">Прикормка</a>
+          </div>
+          <p class="features-text">
+            Наша прикормка сделана из качественных зерновых, используются только
+            зарубежные ароматизаторы, безвредня для окружающей среды
+          </p>
+        </div>
+        <div class="features-item">
+          <div><a href="/" class="features-title">Снасти</a></div>
+          <p class="features-text">
+            Для изготовления снастей мы используем фурнитуру Японского
+            качества,наши снасти не подведую
+          </p>
+        </div>
       </div>
     </section>
+
     <!-- news -->
     <div class="index-content clearfix">
       <section class="content-column-left">
